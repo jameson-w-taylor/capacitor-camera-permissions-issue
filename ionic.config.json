@@ -1,0 +1,7 @@
+{
+  "name": "limited-photos",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
