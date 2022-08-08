@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Camera, CameraResultType } from '@capacitor/camera';
 
 @Component({
   selector: 'app-home',
@@ -8,5 +9,13 @@ import { Component } from '@angular/core';
 export class HomePage {
 
   constructor() {}
+
+  async getPhoto() {
+    await Camera.getPhoto({
+      quality: 90,
+      allowEditing: true,
+      resultType: CameraResultType.Uri
+    });
+  }
 
 }
