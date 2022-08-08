@@ -17,7 +17,7 @@ Add the required `Info.plist` [entries](https://capacitorjs.com/docs/apis/camera
 Run the application on your device, and click the "Get Photo" button.
 This should show a permissions prompt like this:
 <div>
-  <img src="./documentation/images/Permission_1.png" style="height:auto;width:auto;max-height:400px;">
+  <img src="./documentation/images/Permission_1.png" style="height:auto;width:auto;max-height:200px;">
 </div>
 
 If you choose "Select Photos...", select a single image from your library to grant access to.
@@ -30,7 +30,7 @@ I noticed that after the permission prompt and as the picker UI is being display
 
 Furthermore if I select the image I granted permission for in the last step to select as a result of image picker, I'm presented with a _second_ permission prompt:
 <div>
-  <img src="./documentation/images/Permission_2.png" style="height:auto;width:auto;max-height:400px;">
+  <img src="./documentation/images/Permission_2.png" style="height:auto;width:auto;max-height:200px;">
 </div>
 
 # Expected Behavior
